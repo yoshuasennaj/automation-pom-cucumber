@@ -1,0 +1,350 @@
+[
+  {
+    "id": "favorite-kost",
+    "uri": "features/01-favorite.feature",
+    "keyword": "Feature",
+    "name": "Favorite Kost",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "favorite-kost;pencari-kost-favorite-unvaforite-kost",
+        "keyword": "Scenario",
+        "name": "Pencari Kost favorite unvaforite kost",
+        "description": "",
+        "line": 3,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "user launch website",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5018181400
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "website displayed user click masuk button",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/steps.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5079294300
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user click pencari kos",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/steps.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5084049800
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user input nomor handphone1",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/steps.rb:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5121299300
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user input password",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/steps.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5107248400
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user click login button",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/steps.rb:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15106344100
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user click cari kos",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/steps.rb:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5119076500
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user input Tobelo",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/steps.rb:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10056573800
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user click Tobelo",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/steps.rb:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10088035700
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user click 10th kost on the list",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/steps.rb:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26391939600
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user click favorite menu",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/steps.rb:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11734488000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify there is no previous kost favorite",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/steps.rb:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10069500600
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1295052400
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 186239400
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "create-kost",
+    "uri": "features/02-create.feature",
+    "keyword": "Feature",
+    "name": "Create Kost",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "create-kost;pemilik-kost-create-kost",
+        "keyword": "Scenario",
+        "name": "Pemilik Kost create kost",
+        "description": "",
+        "line": 3,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "user launch website",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5072775800
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "website displayed user click masuk button",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/steps.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5083612700
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user click pemilik kos",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/steps.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5079053400
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user input nomor handphone2",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/steps.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5116207500
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user input password",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/steps.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5077462600
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user click login button",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/steps.rb:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15103652600
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user click tambah properti",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/steps.rb:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15423440500
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user click pilih kos",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/steps.rb:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15073037700
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user click buat kos",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/steps.rb:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15052921500
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user input nama kos",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/steps.rb:110"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10105542400
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1158661300
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hook.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 198509100
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
